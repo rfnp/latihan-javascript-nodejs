@@ -12,8 +12,8 @@ console.log("Kopi Anda sudah siap!");
 // import coffeeStock from "./state.js";
 import { coffeeStock, isCoffeeMachineReady } from "./state.js";
 
-console.log(coffeeStock)
-console.log(isCoffeeMachineReady)
+// console.log(coffeeStock)
+// console.log(isCoffeeMachineReady)
 
 const makeCoffee = (type, miligrams) => {
     if (coffeeStock[type] >= miligrams) {
