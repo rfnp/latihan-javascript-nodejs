@@ -15,6 +15,13 @@ import { coffeeStock, isCoffeeMachineReady } from "./state.js";
 // console.log(coffeeStock)
 // console.log(isCoffeeMachineReady)
 
+console.log("Selamat datang!");
+setTimeout(() => {
+    console.log("Terimakasih sudah mampir, silakan datang kembali.");
+}, 3000)
+
+console.log("Ada yang bisa dibantu?");
+
 const makeCoffee = (type, miligrams) => {
     if (coffeeStock[type] >= miligrams) {
         console.log("Kopi berhasil dibuat!");
